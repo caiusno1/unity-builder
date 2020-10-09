@@ -1,5 +1,4 @@
-ARG IMAGE
-FROM $IMAGE
+FROM gableroux/unity3d@sha256:35021c97d5ace11fa413aa908e4bb20ab3c17548aad620e18bdd571e7893d08e
 
 LABEL "com.github.actions.name"="Unity - Builder"
 LABEL "com.github.actions.description"="Build Unity projects for different platforms."
